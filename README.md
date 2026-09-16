@@ -18,9 +18,9 @@ The schematic is loosely based on [our panda jungle v2](https://www.comma.ai/sho
 
 * 12V DC input with onboard 5V and 3.3V supplies
 * Four [OBD-C](https://github.com/commaai/hardware/blob/master/harness/OBD-C.sch.pdf) device ports with individually controlled power and current monitoring
-* Four CAN transceivers and ignition simulation circuitry
+* Four CAN-FD transceivers and ignition simulation circuitry
 * A USB hub and USB-C host connection
-* An STM32H725 microcontroller and microSD card slot
+* A microcontroller and microSD card slot
 * A push button and status LEDs
 
 Explore in your browser with KiCanvas: [PCB layout](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fcommaai%2FPCBGolf%2Fblob%2Fmaster%2Fpcbgolf.kicad_pcb).
@@ -46,6 +46,7 @@ Your goal is to make the most compact, efficient board that retains the same int
 * It must be possible to actually assemble the PCBA.
 * The assembled product must work and be usable.
 * Mating connectors must remain mechanically and electrically compatible.
+* Optimizations that require firmware changes are allowed.
 
 ### Prize
 
